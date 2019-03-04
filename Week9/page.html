@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Week 9</title>
+    <link href="css/default.css" rel="stylesheet">
+    <script>
+        var calculator = {
+            sum:0,
+             startnumber: 1109,
+             stepdownnumber: 11,
+             endnumber: 119,
+            adder: function() {
+                for (counter = this.startnumber; counter > this.endnumber; counter -= this.stepdownnumber) {
+                    this.sum += counter;
+                }
+                return this.sum;
+            }
+        };
+            document.write(calculator.adder(1109,119,11));
+        
+        
+    </script>
+</head>
+<body>
+    <script src="js/main.js"></script>
+   
+       
+</body>
+</html>
